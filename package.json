@@ -1,0 +1,23 @@
+{
+  "name": "netlify-example-styles",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "lightningcss --minify --bundle --sourcemap ./src/styles.css -o dist/styles.css  & cp -R public/* dist",
+    "dev" : "npm-watch build"
+  },
+  "watch": {
+    "build": {
+      "patterns": ["src", "public"],
+      "extensions": "css, html"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@netlify/netlify-marketing-tokens": "^1.1.0",
+    "lightningcss-cli": "^1.25.1",
+    "npm-watch": "^0.13.0"
+  }
+}

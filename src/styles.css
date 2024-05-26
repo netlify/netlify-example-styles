@@ -1,0 +1,22 @@
+@import "../node_modules/@netlify/netlify-marketing-tokens/dist/css/global.css";
+@import "variables.css";
+@import "font.css";
+
+
+::selection {
+  background-color: var(--teal-200);
+  color: var(--page-color);
+}
+
+html {
+  background:var(--page-color)
+}
+
+body {
+font-family: var(--font-primary);
+background: linear-gradient(180deg, var(--blue-900) 10vh,  var(--blue-800) 80vh, var(--blue-700) 100%);
+color: #fff;
+line-height: 1.6;
+font-size: var(--step-1);
+min-height: calc(100vh - 50em);
+}

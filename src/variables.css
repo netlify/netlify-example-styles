@@ -1,0 +1,6 @@
+
+@define-mixin color-scheme-light {
+  /* Brand colors */
+  --color-brand-1: var(--blue-900);
+  --color-brand-2: var(--teal-200);
+}
