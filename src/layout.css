@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+
+main {
+  padding-bottom: 6em;
+}
+
+main section {
+  text-align: left;
+  max-width: 600px;
+  margin:0 auto;
+}
+
+/* nav */
+header nav,
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;;
+  gap: 1em;
+  padding: 2em 0.5em;
+  margin: 0 1em;
+  border-bottom: solid 0.5px #ffffff22;
+  
+  & ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+  }
+
+}
+
+header {
+  padding-bottom: 6em;
+}
+
+/* footer */
+footer {
+  background-color: #fff;
+  color:#000;
+}
+
+
+/* content sections */
+
+section {
+  margin: 2em 0;
+}

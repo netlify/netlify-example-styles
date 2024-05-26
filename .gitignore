@@ -6,3 +6,6 @@ node_modules
 
 # build assets
 dist/*
+!dist/.gitkeep
+
+.DS_Store
