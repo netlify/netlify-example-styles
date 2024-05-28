@@ -5,10 +5,11 @@
 @import "layout.css";
 @import "typography.css";
 @import "buttons.css";
+@import "code.css";
 
 ::selection {
   background-color: var(--teal-200);
-  color: var(--page-color);
+  color:#000;
 }
 
 html {
@@ -18,6 +19,7 @@ html {
 body {
   font-family: var(--font-primary);
   background: linear-gradient(180deg, var(--gradient-main));
+  padding: 0 2em;
 }
 
 header,
@@ -26,23 +28,24 @@ main {
   background-size: var(--grid-line-size) var(--grid-line-size);  
 }
 
-
-
-header nav img {
+footer .nf-logo,
+header .nf-logo {
   height: var(--step-5);
+  fill: red;
+  color: #fff;
 }
 
 hr {
   border-style: none;
   border-top: solid 0.5px #ffffff22;
-  margin:1em;
+  margin:0;
 }
 
 a:link,
 a:visited {
   color: #fff;
   text-decoration: underline;
-  text-decoration-color: #ffffff55;
+  text-decoration-color: #ffffff77;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
   transition: all 300ms;
