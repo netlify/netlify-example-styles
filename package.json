@@ -4,8 +4,7 @@
   "description": "Simplified styles for for Netlify examples and demos",
   "scripts": {
     "build": "lightningcss --minify --bundle --sourcemap ./src/styles.css -o dist/styles.css & cp -R public/* dist",
-    "dev" : "npm-watch build",
-    "clean": "rm -rf dist/*"
+    "dev" : "npm-watch build"
   },
   "watch": {
     "build": {

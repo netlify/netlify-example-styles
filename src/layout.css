@@ -30,6 +30,10 @@ header {
   padding-bottom: 6em;
 }
 
+main {
+  padding-bottom: 6em;
+}
+
 /* footer */
 footer {
   background-color: #fff;
@@ -48,13 +52,10 @@ footer {
   }
 }
 
+
 /* content sections */
 
-main {
-  padding-bottom: 6em;
-}
-
-main section {
+section {
   text-align: left;
   max-width: 600px;
   margin:2em auto;
